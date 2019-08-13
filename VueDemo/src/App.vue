@@ -49,9 +49,14 @@
     -moz-osx-font-smoothing: grayscale;
     width: 100%;
     height: 100%;
-    max-width: 15rem;
+    max-width: 25rem;
     margin: auto;
     position: relative;
+  }
+
+  body{
+    margin: 0px;
+    padding: 0px;
   }
 
   .Router {

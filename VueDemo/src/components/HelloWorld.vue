@@ -1,13 +1,25 @@
 <template xmlns:v-on="http://www.w3.org/1999/xhtml">
   <div class="hello">
-    <h1>{{ msg }}</h1>
 
 
-    <div><a href="" rou></a></div>
+    <div style="float: left;padding: 8px;">
+      <span>会员账号</span>
+      <input type="text" placeholder="会员账号">
+    </div>
+
+    <div style="float: left;padding: 8px;">
+      <span>确认账号</span>
+      <input type="text" placeholder="确认账号">
+    </div>
+
+
+    <div style="clear: both;"></div>
 
 
     <router-link to="/Login"><a href="Login.vue">aaaaaaaa</a></router-link>
 
+
+    <a href="https://blog.csdn.net/Mr_dong_ya_yun/article/details/80732714">input 文档</a>
 
     <div> ===={{game}}====</div>
 
